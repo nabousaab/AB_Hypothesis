@@ -17,7 +17,8 @@ Drop the non-matching rows
 droprows = list(df[((df['group'] == 'treatment') == (df['landing_page'] == 'new_page')) == False].index)
 df2 = df.drop(droprows)
 
-```
+````
+
 
 The above code had cleaned the non matching rows
 **how did this code clean up the unmatching rows while we did not include the control and/or old_page**
