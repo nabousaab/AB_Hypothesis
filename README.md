@@ -11,7 +11,7 @@ One of the main points in AB testing exercise is to clean the data, and I have s
 Drop the non-matching rows 
 - 'treatement' should match new_page & 'control' should match old_page
 
-**The code used**
+## The code used
 
 ````
 
@@ -21,7 +21,7 @@ df2 = df.drop(droprows)
 ````
 
 
-The above code had cleaned the non matching rows
+The above code had cleaned the non matching rows including the control group ones
 **My question is: how did this code clean up the unmatching rows while we did not include the control and/or old_page ?**
 
 
