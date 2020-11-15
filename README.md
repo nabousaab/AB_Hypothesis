@@ -1,6 +1,7 @@
 # AB_Hypothesis
-Dropping non-matching lrows
+Dropping a non-matching rows
 
+One of the main points in AB testing exercise is to clean the data, and I have stumbled with the below code that needs a bit of explanation
 
 > In the A/B test worksheet we have two columns 'group' and 'landing_page'
 > Under 'group' we have treatment and control
