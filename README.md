@@ -7,7 +7,7 @@ One of the main points in AB testing exercise is to clean the data, and I have s
 - Under 'group' we have treatment and control
 - Under 'landing_page' we have old_page and new_page
 
-**The requirement**
+## The requirement
 Drop the non-matching rows 
 - 'treatement' should match new_page & 'control' should match old_page
 
