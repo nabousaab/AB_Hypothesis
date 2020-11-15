@@ -3,9 +3,9 @@ Dropping a non-matching rows
 
 One of the main points in AB testing exercise is to clean the data, and I have stumbled with the below code that needs a bit of explanation
 
-> In the A/B test worksheet we have two columns 'group' and 'landing_page'
-> Under 'group' we have treatment and control
-> Under 'landing_page' we have old_page and new_page
+- In the A/B test worksheet we have two columns 'group' and 'landing_page'
+- Under 'group' we have treatment and control
+- Under 'landing_page' we have old_page and new_page
 
 **The requirement**
 Drop the non-matching rows 
@@ -22,7 +22,7 @@ df2 = df.drop(droprows)
 
 
 The above code had cleaned the non matching rows
-**how did this code clean up the unmatching rows while we did not include the control and/or old_page**
+**My question is: how did this code clean up the unmatching rows while we did not include the control and/or old_page ?**
 
 
 
